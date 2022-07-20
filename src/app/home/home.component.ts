@@ -28,16 +28,16 @@ export class HomeComponent implements OnInit {
     }    
   ];
   expertise: Array<any> = [
-    {
-      title: "Azania Canvass",
-      link: "http://www.azaniacanvas.co.za/",
-      type: "",
-      logo: "../../assets/azania-canvass.png",
-      data: []
-    },
+    // {
+    //   title: "Azania Canvass",
+    //   link: "http://www.azaniacanvas.co.za/",
+    //   type: "",
+    //   logo: "../../assets/azania-canvass.png",
+    //   data: []
+    // },
     {
       title: "Software Engineering",
-      link: "http://www.alphiecodes.xyz",
+      link: "https://www.linkedin.com/in/alphie-shikwambana/",
       type: "",
       logo: "../../assets/alphiecodes.png",
       data: []
@@ -59,6 +59,12 @@ export class HomeComponent implements OnInit {
   ];
   spotlight: Array<any> = [
     {
+      title: 'With Love From The Twins',
+      type: 'Website',
+      company: 'Unswerve',
+      link: 'http://www.withlovefromthetwins.com/'
+    },
+    {
       title: 'Dear Black Son',
       type: 'Open Letter',
       company: 'AlphieSpeaks',
@@ -69,12 +75,6 @@ export class HomeComponent implements OnInit {
       type: 'Web App',
       company: 'Unswerve',
       link: 'https://covid19cases.today'
-    },
-    {
-      title: 'The History of Queen Modjadji',
-      type: 'Article',
-      company: 'Azania Canvass',
-      link: 'http://www.azaniacanvass.co.za/'
     },
     {
       title: '2019 in 5 Minutes',
